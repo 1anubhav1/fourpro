@@ -1,7 +1,12 @@
+#navbar{
+    background: rgba(95, 92, 92, 0.918)!important;
+
+}
 .navbar {
     text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 700;
+    color: black;
     
 }
 
@@ -13,13 +18,13 @@
 } */
 
 .navbar a{
-    color: black !important;
+    color: white !important;
     opacity: 0.7;    
 }
 
 .navbar a:hover{
     opacity: 1;
-    color: black;
+    color: white;
 }
 
 .header{
@@ -71,7 +76,7 @@
     .header{
 
         padding: 20px;
-        height: 800px;
+        height: 1070px;
     }
 
     
@@ -194,8 +199,7 @@
     width: 200px;
     margin-top: 4rem;
 }
-
-.fa-facebook, .fa-linkedin, .fa-pinterest,.fa-twitter{
+.team .fa-facebook,.team .fa-linkedin, .team .fa-pinterest,.team .fa-twitter{
     height: 4rem;
     width: 2rem;
     padding: 10px;
@@ -213,4 +217,131 @@
     .team b{
         margin-bottom: 50px;
     }
+}
+
+
+.client{
+    padding: 50px 0 80px;
+    background-color: #3399ff;
+    text-align: center;
+    color: white;
+}
+
+.client h2{
+    color: #5e5e5e;
+}
+
+.client p{
+    padding-bottom: 40px;
+}
+
+.client img{
+    width: 200px;
+    opacity: 0.6;
+    cursor: pointer;
+    margin: 40px 0px;
+    transition: all 500ms ease-in-out;
+    
+}
+
+.client li:hover img{
+    opacity: 1;
+}
+
+.client li{
+    display: block;
+}
+
+.client .abc{
+    margin-top: 3rem;
+}
+
+.client .abc1{
+    margin-top: 1.8rem;
+}
+
+.client .abc2{
+    margin-top: -22px;
+}
+
+.contact {
+    padding: 50px 0  -6px;
+    text-align: center;
+
+}
+
+.contact p{
+    padding-bottom: 16px;
+    color: #737373;
+}
+
+.contact h2{
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+.contact .input-group{
+    margin-bottom: 25px;
+}
+
+.contact .form-control{
+    border-radius: 0!important;
+    border-color: pink
+}
+.contact span{
+    border-radius: 0!important;
+}
+.contact .btn{
+    border-radius: 0;
+    width: 100%;
+    font-size: 1.4rem;
+    background-color: #f08080;
+    color: white;
+}
+
+.contact .btn:hover{
+    background-color: #a85959;
+    color: white!important;
+}
+
+.fa-envelope, .fa-phone, .fa-user{
+border: 1px solid grey;
+background-color: #d4cece;
+font-size: 48px;
+padding: 13px;
+}
+
+.footer{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #222222;
+    color: white;
+}
+
+.footer input{
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    border: none;
+    background-color: #cccccc;
+    color: #000;
+}
+
+.footer .btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 3px!important;
+    padding: 7.5px 5px 10px;
+    margin: -3px 0 0 5px;
+}
+
+
+@media(max-width:768px){
+    .footer .btn{
+        margin-top: 15px;
+        width: 120px;
+        height: 40px;
+        padding: 1px;
+    }
+
 }
